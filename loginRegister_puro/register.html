@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
+    <title>Register Example</title>
+</head>
+<body onresize="responsiveRegister()">
+   <header class="header-example">
+    <a class="logo-link" href="login.html"><h2 class="logo">GAFio</h2></a>
+    <img src="assets/fiocruz.svg">
+   </header>
+   <div class="content">
+        <div class="register-container">
+            <h2 class="card-title">Cadastro de Usuário</h2>
+            <form class="form-example" action="#" method="post">
+                <div class="form-input">
+                    <label for="email">Nome Completo:</label>
+                    <input type="text" name="nome" id="email" placeholder="Digite seu nome">
+                    <span></span>
+                </div>
+                <div class="form-input">
+                    <label for="email">Email</label>
+                    <input type="text" name="email" id="email" placeholder="Digite seu email">
+                    <span></span>
+                </div>
+                <div class="form-input">
+                    <label for="email">Matrícula</label>
+                    <input type="text" name="matricula" id="email" placeholder="Digite sua matrícula">
+                    <span></span>
+                </div>
+                <div class="form-input">
+                    <label for="email">Senha</label>
+                    <input type="password" name="senha" id="email" placeholder="Digite sua senha">
+                    <span></span>
+                </div>
+                <div class="form-input">
+                    <label for="senha">Corfirmar Senha</label>
+                    <input type="password" name="senhaConfirma" id="senha" placeholder="Confirme sua senha">
+                    <span></span>
+                </div>
+                <button class="form-btn" type="submit">
+                    Cadastrar
+                </button>
+            </form>
+        </div>
+    </div>
+    <footer class="footer-example">
+       <p>&copy; GAFio Devs 2020</p>
+       <a href="">
+            <i class="fa fa-github-square" aria-hidden="true"></i>
+       </a>
+       <a href="">
+            <svg stroke="currentColor" fill="currentColor" stroke-width="0" t="1569682613478" viewBox="0 0 1024 1024" version="1.1" pId="7948" size="25" height="25" width="25" xmlns="http://www.w3.org/2000/svg"><defs></defs><path d="M852 64H172c-17.7 0-32 14.3-32 32v660c0 17.7 14.3 32 32 32h680c17.7 0 32-14.3 32-32V96c0-17.7-14.3-32-32-32zM300 328c0-33.1 26.9-60 60-60s60 26.9 60 60-26.9 60-60 60-60-26.9-60-60z m372 248c0 4.4-3.6 8-8 8H360c-4.4 0-8-3.6-8-8v-60c0-4.4 3.6-8 8-8h304c4.4 0 8 3.6 8 8v60z m-8-188c-33.1 0-60-26.9-60-60s26.9-60 60-60 60 26.9 60 60-26.9 60-60 60zM799 864H225c-13.8 0-25 14.3-25 32v56c0 4.4 2.8 8 6.2 8h611.5c3.4 0 6.2-3.6 6.2-8v-56c0.1-17.7-11.1-32-24.9-32z" pId="7949"></path></svg>
+       </a>
+    </footer>
+</body>
+    <script src="main.js"></script>
+    <script src="register.js"></script>
+<script>
+    window.onload = function(){
+        darkFont();
+    }
+</script>
+</html>
