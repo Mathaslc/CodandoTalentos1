@@ -1,0 +1,20 @@
+.green-leaf{
+    background-color: #003300;
+}
+.green-input{
+    background-color: #ccffcc;
+}
+.green-input:disabled{
+    background-color: #ccffcc;
+}
+.font-green{
+    color: #66ff66;
+    font-weight: 200;
+}
+.green-input:focus{
+    background-color: #ccffcc;
+}
+.font-red{
+    color: rgba(190, 0, 0, 0.753);
+    font-weight: bolder;
+}
